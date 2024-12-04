@@ -1,0 +1,192 @@
+body{
+  font-family: 'Roboto Condensed';
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Gestion du fond */
+
+.back-page{
+  position: absolute;
+  height :100%;
+  width: 100%;
+}
+
+.fondVert{
+  position:absolute;
+  left:0;
+  height :100%;
+  width: 55%;
+  background-color: #ffff;
+  z-index: 0;
+}
+
+.fondBlanc{
+  position:absolute;
+  right:0;
+  height :100%;
+  width:45%;
+  background-color: #ddc2b3;
+  z-index: 0;
+}
+
+/* Haut de page */
+.top-page{
+  position:absolute;
+  top:0;
+  height :10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.grille{
+  position:absolute;
+  top:0;
+  height:98%;
+  padding-bottom: 10px;
+  border-bottom: 8px solid #2c2d3013;
+}
+
+.titre1{
+  position:absolute;
+  top: 40%;
+  left:46%;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', cursive;
+}
+
+.titre2{
+  position:absolute;
+  top: 40%;
+  right:3%;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', cursive;
+  padding-bottom: 50px;
+  border-bottom: 9px solid #2c2d3038;
+}
+
+.titre{
+  color:black; 
+}
+
+
+/* Bas de page */
+
+.bot-page{
+  position:absolute;
+  bottom: 0;
+  height :10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.fleche{
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+
+.T5{
+  position:absolute;
+  font-size: 800px;
+  font-family: 'Roboto Condensed', cursive;
+  bottom:-370%;
+  right: 10%;
+  z-index: 3;
+}
+
+/* Milieux de page */
+
+.mid-page{
+  position:absolute;
+  top: 10%;
+  height :80%;
+  width: 100%;
+  z-index: 3;
+}
+
+.ecureuil{
+  position:absolute;
+  left : 40%;
+  height:100%;
+}
+
+.T1{
+  position:absolute;
+  font-size: 500px;
+  font-family: 'Roboto Condensed', cursive;
+  top: 0%;
+  left: 21%;
+  z-index: 3;
+}
+
+.T3{
+  position:absolute;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', cursive;
+  bottom: 20%;
+  left : 15%;
+  z-index: 3;
+  padding-bottom: 50px;
+  border-bottom: 9px solid #2c2d3038;
+}
+
+.T2{
+  position:absolute;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', cursive;
+  bottom: 50%;
+  right : 4%;
+  z-index: 3;
+}
+
+/* BandeauG */
+
+.bandeauG{
+  position:absolute;
+  top: 0%;
+  height :100%;
+  width: 4.9%;
+  z-index: 3;
+  border-right: 8px solid #2c2d3013;
+}
+
+.T4{
+  position: absolute;
+  font-family: 'Roboto Condensed', cursive;
+  font-size: 50px;
+  width: 300%;
+  top: 45%;
+  left: -95%;
+  rotate: -90deg;
+}
+
+
+/* Autre */
+
+a{
+  color: #2c2d30;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', cursive;
+  }
+
+h1{
+  font-family: 'Roboto Condensed', cursive;
+  color: #2c2d30
+}
+
+h2{
+  font-family: 'Roboto Condensed', cursive;
+  color: #2c2d30
+}
+
+h3{
+  font-family: 'Roboto Condensed', cursive;
+  color: #2c2d3073
+}
+
+
